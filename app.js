@@ -38,7 +38,7 @@ app.post('/', function(req,res){
 
     const options={ 
         method: "POST",
-        auth: "Mayank:17018a220d7bd8f8925893925764eb0d-us21"
+        auth: "Mayank:1db36802e48ae55276a894fc113177ee-us21"
     }
 
     const request=https.request(url,options, function(response){
@@ -63,10 +63,3 @@ app.post('/', function(req,res){
 app.listen(3000, function(){
     console.log("Server is running on port 3000");
 })
-
-//API Key
-//17018a220d7bd8f8925893925764eb0d-us21
-
-
-//List Id
-//9fbd9d29a2
